@@ -18,7 +18,7 @@ const Register = ({ onRouteChange, loadUser }) => {
     };
 
     const onSubmitRegister = () => {
-        fetch('http://localhost:3000/register', { 
+        fetch('https://face-detection-service.onrender.com/register', { 
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
